@@ -1,0 +1,23 @@
+{
+  "name": "static-brunch",
+  "description": "framework for static pages",
+  "main": "",
+  "authors": [
+    "Valery"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/vanilla-ice/brunch",
+  "moduleType": [],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^2.2.2",
+    "inline-svg": "^2.2.1"
+  }
+}
