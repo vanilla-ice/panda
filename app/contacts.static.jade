@@ -1,0 +1,32 @@
+doctype html
+head
+  meta(http-equiv="Content-Type" content="text/html; charset=utf-8")
+  link(rel="stylesheet" href="stylesheets/app.css")
+  
+  script(src="javascripts/vendor.js")
+  script(src="javascripts/app.js")
+  script(async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBIC9U2ybQ4eZBHAOAJlxAhJ-Avr-NdCrk&callback=initMap")
+  script.
+    require('initialize');
+
+body.main.fixed-header
+
+  include components/header/header.static.jade
+  include components/map/map.static.jade
+  
+  .contacts 
+    .container
+      .contacts-title
+        |Контакты
+      .address
+        |Адрес: Россия, Ростов-на-Дону, ул. Пушкинская, 157
+      .phone-one
+        |+7 863 264 94 89 
+      .phone-two
+        |+7 863 264 94 89 
+  
+  include components/form/form.static.jade
+  include components/footer/footer.static.jade
+    
+      
+        
